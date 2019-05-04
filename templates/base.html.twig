@@ -9,11 +9,11 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap.min.css')}}" rel="stylesheet">
     <!-- Material Design Bootstrap -->
-    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="{{ asset('css/mdb.min.css')}}" rel="stylesheet">
     <!-- Your custom styles (optional) -->
-    <link href="css/style.min.css" rel="stylesheet">
+    <link href="{{ asset('css/style.min.css')}}" rel="stylesheet">
     <style type="text/css"></style>
 </head>
 
@@ -24,7 +24,7 @@
         <div class="container">
 
             <!-- Brand -->
-            <a class="navbar-brand" href="/home">
+            <a class="navbar-brand" href="{{ path('home')}}">
                 <strong>GetLoc</strong>
             </a>
 
